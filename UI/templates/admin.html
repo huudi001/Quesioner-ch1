@@ -1,59 +1,133 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-      <meta name="viewport" content="width=device-width,initial-scale=1" charset="utf-8" />
-      <title> admin page</title>
-      <link href="../static/Css/admin.css" rel="stylesheet" type="text/css" />
-      <link href="https://fonts.googleapis.com/css?family=play" rel="stylesheet">
-
-
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../static/Css/admin.css">
+    <title > admin</title>
 
 
 
 
   </head>
   <body>
-      <div id="header">
-          <center><img src="../images/fl.png" style="height:50px; width:50px;" id="logo"><br></br>Admin
-          </center>
+    <nav id ="header">
+      <div id="logo">
+
+
+
 
 
       </div>
-      <div id="side" >
-          <ul>
-              <li>add meet up</li>
-              <li>delete meet up</li>
-              <li>users</li>
-              <li>all meet ups</li>
-              <li><a href="../index.html">log out</a></li>
-          </ul>
+      <ul id="navbar">
+        <li><a href="">manage users </a></li>
 
+        <li><a href="../index.html">log out </a></li>
+        <li><img src="../images/fl.png" style="width:60px; height:60px;"></li>
 
-      </div>
-      <div id="data">
-
-
-      </div>
+      </ul>
 
 
 
 
 
-    <footer id="footer">
-        <p>&copy; 2018 Questioner.com</p>
 
 
-    </footer>
+
+
+
+
+    </nav>
+
+    <table align="center">
+      <tr>
+        <td id="header"colspan="7"><h1>all meet ups</h1></td>
+
+      </tr>
+      <tr>
+        <th>meet up</th>
+        <th>vanue</th>
+        <th>questions</th>
+        <th>date</th>
+        <th>status</th>
+        <th>edit</th>
+        <th>delete</th>
+
+
+
+      </tr>
+      <tr>
+        <td>face book devlopers</td>
+        <td>3,000</td>
+        <td>14/11/2019 </td>
+        <td>i Hub</td>
+        <td>upcoming</td>
+        <td><button class="btn btn-primary">Edit</button></td>
+        <td><button class="btn btn-warning">Delete</button></td>
+
+
+      </tr>
+      <tr>
+        <tr>
+          <td>Andela meet up</td>
+          <td>2,000</td>
+          <td>15/11/2018 </td>
+          <td>Andela</td>
+          <td>past</td>
+          <td><button class="btn btn-primary">Edit</button></td>
+          <td><button class="btn btn-warning">Delete</button></td>
+
+
+
+      </tr>
+      <tr>
+        <tr>
+          <td>data science meetup</td>
+          <td>1,000</td>
+          <td>20/11/2018 </td>
+          <td>USIU</td>
+          <td>past</td>
+          <td><button class="btn btn-primary">Edit</button></td>
+          <td><button class="btn btn-warning">Delete</button></td>
+
+
+
+      </tr>
+      <tr>
+        <tr>
+          <td>jubilee party meetup</td>
+          <td>500</td>
+          <td>4/11/2019 </td>
+          <td>jubilee hall</td>
+          <td>upcoming</td>
+          <td><button class="btn btn-primary">Edit</button></td>
+          <td><button class="btn btn-warning">Delete</button></td>
+
+
+
+      </tr>
+      <tr>
+        <tr>
+          <td>kanu meet up</td>
+          <td>200</td>
+          <td>10/11/2018 </td>
+          <td>jubilee hall</td>
+          <td>past</td>
+          <td><button class="btn btn-primary">Edit</button></td>
+          <td><button class="btn btn-warning">Delete</button></td>
+
+
+
+
+      </tr>
+
+
+
+    </table>
+  <footer><p class="credits">Questioner | Copyright &copy; 2018</p></footer>
+
+
 
   </body>
-
-
-
-
-
-
-
-
 
 
 
